@@ -1,0 +1,662 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 8070 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/daeha/RPG MAKER GAME
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13628
+Successfully changed project path to: C:/Users/daeha/RPG MAKER GAME
+C:/Users/daeha/RPG MAKER GAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 302.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/daeha/RPG MAKER GAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034353 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 188.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (189ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.056087 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\daeha\RPG MAKER GAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\daeha\RPG MAKER GAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 163.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.290 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2291ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1826ms)
+			LoadAssemblies (353ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (939ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (187ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4875 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (230.4 KB). Loaded Objects now: 5292.
+Memory consumption went from 173.2 MB to 173.0 MB.
+Total: 7.702500 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.349700 ms MarkObjects: 6.785200 ms  DeleteObjects: 0.190000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 349163.227426 seconds.
+  path: Assets/SuperTiled2Unity/Import/hakk.tmx
+  artifactKey: Guid(91dd2a0a74bbe7641970f5a0abbac38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/hakk.tmx using Guid(91dd2a0a74bbe7641970f5a0abbac38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2fa948b8110c19434c66f271afb376') in 0.081629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16
+  artifactKey: Guid(2b8bd5b2142e8314793d19f200cbfb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16 using Guid(2b8bd5b2142e8314793d19f200cbfb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5cb4cb970e4dc72d3374829bfae1be') in 0.006075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_City_v3.png
+  artifactKey: Guid(ded898d208beae94cb3c86e2ddca4f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_City_v3.png using Guid(ded898d208beae94cb3c86e2ddca4f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a198224bddc19e0764fac00b9b89967c') in 0.163833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Background Trees & Plants.tsx
+  artifactKey: Guid(e97e923fde5f7a045bae35e583125cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Background Trees & Plants.tsx using Guid(e97e923fde5f7a045bae35e583125cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0989ecaa1ab5b05d40c830375852505e') in 0.234034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Village_Doors.tsx
+  artifactKey: Guid(3d51af5595474f6448cbe0e73d0ce51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Village_Doors.tsx using Guid(3d51af5595474f6448cbe0e73d0ce51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4412964c60e03930fe6ccd70488b203c') in 0.075986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/spr_fd_village_brushes_8.png
+  artifactKey: Guid(25908500e9c551b46a78c9a8ac43cc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/spr_fd_village_brushes_8.png using Guid(25908500e9c551b46a78c9a8ac43cc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd837cb00939551c7fa81f36a98baa4f') in 0.035340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/u_fd_village.png
+  artifactKey: Guid(2b713d00b019a9249b0a082f9962ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/u_fd_village.png using Guid(2b713d00b019a9249b0a082f9962ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde027e8c65cb02fa69a104fa95ae03f') in 0.070034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/u_fd_village.tsx
+  artifactKey: Guid(8ed2d0b99f41fa64c9b44449627e4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/u_fd_village.tsx using Guid(8ed2d0b99f41fa64c9b44449627e4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755a7d6499e39f20914df194cd0f00b8') in 0.202193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_animated.tsx
+  artifactKey: Guid(e431cef8e200f7840b013fa6d7984b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_animated.tsx using Guid(e431cef8e200f7840b013fa6d7984b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fc405f2f1c56050f61d165315b7694') in 0.058691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_totem.tsx
+  artifactKey: Guid(07e8852050cb9594f9302f02b9113190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_totem.tsx using Guid(07e8852050cb9594f9302f02b9113190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9ea7fb8321b9386d9207aa07b6a7b0') in 0.064133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands.png
+  artifactKey: Guid(6eec88eeb58138e4eadc65754a5731a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands.png using Guid(6eec88eeb58138e4eadc65754a5731a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af653513ae5685eb9019eed75b8fcb3b') in 0.054017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_City_v3.tsx
+  artifactKey: Guid(846e837e6ed61c647a74db9b851a54b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_City_v3.tsx using Guid(846e837e6ed61c647a74db9b851a54b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908a0c35cf1b3a6741051585bdd8a260') in 0.154463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/spr_fd_village.tsx
+  artifactKey: Guid(3ae24254987d57c45af1610b7878981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/spr_fd_village.tsx using Guid(3ae24254987d57c45af1610b7878981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0692b8f91c6f7cacee77ffd62689c44') in 0.135074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/spr_fd_village_brushes_16.png
+  artifactKey: Guid(1d996c6bb686ed64bafa0629c5ec3124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/spr_fd_village_brushes_16.png using Guid(1d996c6bb686ed64bafa0629c5ec3124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7524122b63c5e17fe727c5a2e2be85') in 0.039404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_v3.tsx
+  artifactKey: Guid(3ae281f7c2fae9a4d913238529a960e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_v3.tsx using Guid(3ae281f7c2fae9a4d913238529a960e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3e5be3004f04a1d35b95d830380d99') in 0.091188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_City_Doors.png
+  artifactKey: Guid(a8588dc3b33d32e47af67cdf342f563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_City_Doors.png using Guid(a8588dc3b33d32e47af67cdf342f563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7da4e1870619d9dcacf61eab161c0a0') in 0.027626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_v2.png
+  artifactKey: Guid(83e5046ffb5e0ad448a32394127c808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_v2.png using Guid(83e5046ffb5e0ad448a32394127c808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f89a38d15b7df159a376bb9103cec0') in 0.055667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Village_Doors.png
+  artifactKey: Guid(ae3bc390cbdf6a345ae3a8c947c937ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Village_Doors.png using Guid(ae3bc390cbdf6a345ae3a8c947c937ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804810397584f22d45d637a4c07f3e2d') in 0.029448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_v2.tsx
+  artifactKey: Guid(89e1f60863bcdb8479d0c68a52465c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_v2.tsx using Guid(89e1f60863bcdb8479d0c68a52465c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bde9a144ff3d53d1dbd28a0c8bd222') in 0.103262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_City_Doors.tsx
+  artifactKey: Guid(b23e95e298986ff40819e3e15e03d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_City_Doors.tsx using Guid(b23e95e298986ff40819e3e15e03d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4196585298afa79be28c10d962cc110d') in 0.075347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_animated.tsx
+  artifactKey: Guid(cebbcf4eae59a78479e430b7b23856f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_animated.tsx using Guid(cebbcf4eae59a78479e430b7b23856f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d97a6c7eccf9c94f90d235a027d64bf') in 0.056405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/spr_fd_village.png
+  artifactKey: Guid(13ce116a8418c7e48a097ecd6ecdf2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/spr_fd_village.png using Guid(13ce116a8418c7e48a097ecd6ecdf2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a740248697df22433829df788fe2c') in 0.051764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Summer.tsx
+  artifactKey: Guid(e8f9afaabaa61474399dabf0cf9d0266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Summer.tsx using Guid(e8f9afaabaa61474399dabf0cf9d0266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c53c6bee38cb9cd5752ba98441b751') in 0.135549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SuperTiled2Unity/Import/stardew.tmx
+  artifactKey: Guid(a7a2f449a9ef2c045a515e97bceaf334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/stardew.tmx using Guid(a7a2f449a9ef2c045a515e97bceaf334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e09fcea0b4a7209d3261a10d2019ae') in 0.014709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_animated.png
+  artifactKey: Guid(f86fa35804dc83d4cbc1519b4ca0c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_animated.png using Guid(f86fa35804dc83d4cbc1519b4ca0c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44c15eb9c4d17ada7db0c825e411245') in 0.027807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.tsx
+  artifactKey: Guid(0afc2d61268998644b6fcc0d78474f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.tsx using Guid(0afc2d61268998644b6fcc0d78474f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bc5a24f90f01300834f687403a36ff') in 0.068174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_v3.png
+  artifactKey: Guid(c3f8a143add4ef046a542ab86f85ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_v3.png using Guid(c3f8a143add4ef046a542ab86f85ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e669a09c11a2b1028b27a0a806518152') in 0.050749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_totem.png
+  artifactKey: Guid(77a5b024722f0854eb9077781338b5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_totem.png using Guid(77a5b024722f0854eb9077781338b5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d614f442f3e5c19e4bc256edd62e6b') in 0.030790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd070af58885e55f7aa853845e4d59e61') in 0.380703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands.tsx
+  artifactKey: Guid(98fbab3d4a9f0884ab8a2eb0b8b17ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands.tsx using Guid(98fbab3d4a9f0884ab8a2eb0b8b17ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dedecfa123ccde5434d250f3d13a4ab') in 0.179342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.png
+  artifactKey: Guid(91f2ebba05bbd0e438f7a0caa9aa4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.png using Guid(91f2ebba05bbd0e438f7a0caa9aa4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4dc0a7641cd843adc34c3bc6e5953a') in 0.021548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_animated.png
+  artifactKey: Guid(8996562ed909641439431ed7c94c48aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_animated.png using Guid(8996562ed909641439431ed7c94c48aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee561e90a825dba249210256e19f9388') in 0.026808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.023564 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4207fa160625513f21ac52228d170fd') in 0.355517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.185038 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_City_Doors.tsx
+  artifactKey: Guid(b23e95e298986ff40819e3e15e03d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_City_Doors.tsx using Guid(b23e95e298986ff40819e3e15e03d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78f7fa0858a7e06afc80de496cd4c71') in 0.207985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.851338 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_City_v3.tsx
+  artifactKey: Guid(846e837e6ed61c647a74db9b851a54b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_City_v3.tsx using Guid(846e837e6ed61c647a74db9b851a54b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d39393bb4d7d9d635b603121c32bce') in 0.162850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1e4fe403f64a6df620412709d59bab') in 0.221576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.279581 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_animated.tsx
+  artifactKey: Guid(cebbcf4eae59a78479e430b7b23856f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_animated.tsx using Guid(cebbcf4eae59a78479e430b7b23856f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13a4908ef69ddc33d8f2e834af28a9d') in 0.170530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.291295 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_totem.tsx
+  artifactKey: Guid(07e8852050cb9594f9302f02b9113190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_totem.tsx using Guid(07e8852050cb9594f9302f02b9113190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31e67f78728f7c92aaf49dfcf00f27') in 0.045666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.897247 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Forest_v3.tsx
+  artifactKey: Guid(3ae281f7c2fae9a4d913238529a960e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Forest_v3.tsx using Guid(3ae281f7c2fae9a4d913238529a960e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab398611121184113f9311eed8bff67') in 0.157679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05e033f61881f859cb48558db861a2f') in 0.232174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.763738 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands.tsx
+  artifactKey: Guid(98fbab3d4a9f0884ab8a2eb0b8b17ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands.tsx using Guid(98fbab3d4a9f0884ab8a2eb0b8b17ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7868dcc04bf0c0cf6116575f6dd1e0e') in 0.766270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.677004 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.tsx
+  artifactKey: Guid(0afc2d61268998644b6fcc0d78474f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.tsx using Guid(0afc2d61268998644b6fcc0d78474f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1eaed840a8789b4ba7bfb557f4dc0c') in 2.735809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_animated.tsx
+  artifactKey: Guid(e431cef8e200f7840b013fa6d7984b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_animated.tsx using Guid(e431cef8e200f7840b013fa6d7984b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d6329e93e41a777e38b57ffb9f2510') in 0.238900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.tsx
+  artifactKey: Guid(0afc2d61268998644b6fcc0d78474f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Grasslands_animated.tsx using Guid(0afc2d61268998644b6fcc0d78474f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1eaed840a8789b4ba7bfb557f4dc0c') in 0.062944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.171393 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/u_fd_village.tsx
+  artifactKey: Guid(8ed2d0b99f41fa64c9b44449627e4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/u_fd_village.tsx using Guid(8ed2d0b99f41fa64c9b44449627e4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37330c274b9b072bb611ef978311f4d') in 2.253429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/spr_fd_village.tsx
+  artifactKey: Guid(3ae24254987d57c45af1610b7878981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/spr_fd_village.tsx using Guid(3ae24254987d57c45af1610b7878981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371cd9fa74c91bd3f7848fd7b9dd944c') in 0.118417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/u_fd_village.tsx
+  artifactKey: Guid(8ed2d0b99f41fa64c9b44449627e4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/u_fd_village.tsx using Guid(8ed2d0b99f41fa64c9b44449627e4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37330c274b9b072bb611ef978311f4d') in 0.143867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.728527 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Village_Doors.tsx
+  artifactKey: Guid(3d51af5595474f6448cbe0e73d0ce51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Village_Doors.tsx using Guid(3d51af5595474f6448cbe0e73d0ce51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8647e1ecaa566fe5afe0117360c3fa4a') in 0.166774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.847864 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_v2.tsx
+  artifactKey: Guid(89e1f60863bcdb8479d0c68a52465c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/FD_Mountains_v2.tsx using Guid(89e1f60863bcdb8479d0c68a52465c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4867b03329b5ad37170a1133b29aed87') in 0.160851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2386c3a3b8158922509542e6e2f20ed') in 0.491190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 781.691976 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13686a9d29bedbb16be012b265d51e5') in 0.541390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2521.627493 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e133711bfeeba82bb9ca0d2f92bc73') in 4.968586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2436.306502 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/ground.tmx
+  artifactKey: Guid(f64a04e9b57c5ba49820762640dec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/ground.tmx using Guid(f64a04e9b57c5ba49820762640dec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed41e1ad737b52e7dfb4c40e5b94e79') in 0.335627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Player.png
+  artifactKey: Guid(8aa74ec1750e12e4ea4b62bfd96bce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Player.png using Guid(8aa74ec1750e12e4ea4b62bfd96bce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec512f8e50fd217445bd4622b1083f0') in 0.218454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Spring.tsx
+  artifactKey: Guid(8064291ce5b9a804c8a1f55e7c103b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Spring.tsx using Guid(8064291ce5b9a804c8a1f55e7c103b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9435d7e850fe1cd76c6732ae3d1d6e51') in 0.479752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/manage.tmx
+  artifactKey: Guid(eafb230137eb00647b5ec134be373607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/manage.tmx using Guid(eafb230137eb00647b5ec134be373607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab311e072c135e35b782c560862e294a') in 0.260219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Pelican Town Spring.png
+  artifactKey: Guid(095530acde21174418f017fc3930653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Pelican Town Spring.png using Guid(095530acde21174418f017fc3930653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d5a92ff91a74ad5e0a09098c75ee0d') in 0.138759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9f13b95eba06f3049907ec8f065251') in 0.730089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Cabins.png
+  artifactKey: Guid(7c080b5948a4f3d4d8fd089c4bcfaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Cabins.png using Guid(7c080b5948a4f3d4d8fd089c4bcfaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5a537132abc23ed74fd533ce860345') in 0.029236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Manhae.tmx
+  artifactKey: Guid(ca559c0376d28004481a9b97397f67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Manhae.tmx using Guid(ca559c0376d28004481a9b97397f67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f310e079f416825e1a01b341139e99c') in 0.177199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Newgong.tmx
+  artifactKey: Guid(635392f00dcad2f47affce9eab5ff4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Newgong.tmx using Guid(635392f00dcad2f47affce9eab5ff4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ab8a719b6d7d73d7e643c54c9f9c49') in 0.057567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Spring.png
+  artifactKey: Guid(890334f1f1ae97f4fbd0d3ede35f2b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Spring.png using Guid(890334f1f1ae97f4fbd0d3ede35f2b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aba8c2107765b96819046449466d135') in 0.074374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 317.988386 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Newgong.tmx
+  artifactKey: Guid(635392f00dcad2f47affce9eab5ff4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Newgong.tmx using Guid(635392f00dcad2f47affce9eab5ff4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5848696e578bcee854543cfe95630e6') in 0.292863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx
+  artifactKey: Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx using Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b06a973d8b2e903f041e9f0d7332402') in 0.136790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.949948 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/manage.tmx
+  artifactKey: Guid(eafb230137eb00647b5ec134be373607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/manage.tmx using Guid(eafb230137eb00647b5ec134be373607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e00e0ac6dd9d952724d731cb50c47f1') in 0.259475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Spring.tsx
+  artifactKey: Guid(8064291ce5b9a804c8a1f55e7c103b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Outdoors Spring.tsx using Guid(8064291ce5b9a804c8a1f55e7c103b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1e8fc95c8f95c277da3b4f579ac577') in 0.425547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c36eaeaf61a1cb4cf0d5c44bfc62f1b') in 0.891651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.239408 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Manhae.tmx
+  artifactKey: Guid(ca559c0376d28004481a9b97397f67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Manhae.tmx using Guid(ca559c0376d28004481a9b97397f67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323cd1c1b37bd15bfa15a5601e1c3cff') in 0.236312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.960303 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Manhae.tmx
+  artifactKey: Guid(ca559c0376d28004481a9b97397f67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Manhae.tmx using Guid(ca559c0376d28004481a9b97397f67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae59c0d3129a9327106d79b3bf116ce5') in 0.255322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Background Trees & Plants.tsx
+  artifactKey: Guid(e97e923fde5f7a045bae35e583125cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Background Trees & Plants.tsx using Guid(e97e923fde5f7a045bae35e583125cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ec0eb6af2f5fcfe39395162eb0bf15') in 0.182202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx
+  artifactKey: Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Paljongdo.tmx using Guid(375b75f1649253c448a693b911ed81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2663a421a355c5f5b2db590143d5a73') in 0.423069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.137959 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/Newgong.tmx
+  artifactKey: Guid(635392f00dcad2f47affce9eab5ff4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/Newgong.tmx using Guid(635392f00dcad2f47affce9eab5ff4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2600acd6d85c4b98e00b0f664cbf08b') in 0.112288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.635925 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/ground.tmx
+  artifactKey: Guid(f64a04e9b57c5ba49820762640dec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/ground.tmx using Guid(f64a04e9b57c5ba49820762640dec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d42677c172acaeaed27c66a85e34b1') in 0.158828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.143007 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/manage.tmx
+  artifactKey: Guid(eafb230137eb00647b5ec134be373607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/manage.tmx using Guid(eafb230137eb00647b5ec134be373607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40064da6f229bd902e702db8e38f556b') in 0.102925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 227.960647 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx
+  artifactKey: Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx using Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d4639c9ca4ac60a44f172843e3547c') in 0.201095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.593205 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx
+  artifactKey: Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx using Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94455b8fe3a01acc59d478fbe16aeec0') in 0.186862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 168.226378 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Pelican Town Spring.tsx
+  artifactKey: Guid(224d97dd939c7cd4db998d5aa41aa8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Pelican Town Spring.tsx using Guid(224d97dd939c7cd4db998d5aa41aa8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04be940c1977cffc5e4952c39fdfb36') in 0.265511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx
+  artifactKey: Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx using Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd74b4fd6f3485d1fb5127259d1d3bf') in 0.366376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.578578 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Pelican Town Spring.tsx
+  artifactKey: Guid(224d97dd939c7cd4db998d5aa41aa8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/PC Computer - Stardew Valley - Pelican Town Spring.tsx using Guid(224d97dd939c7cd4db998d5aa41aa8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373e4420c74da1ea5d8b5f6624d22c93') in 0.312850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx
+  artifactKey: Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/wonhong.tmx using Guid(85727235f21a8de4ea9b5c3191cdb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30327f994a3d54c6a01f1c24015a0bf1') in 0.287686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 707.907824 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/inform.tmx
+  artifactKey: Guid(3dc8a7f99e9b76847a67776165809c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/inform.tmx using Guid(3dc8a7f99e9b76847a67776165809c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e6500aa3d6f649b9118a398cb81b98') in 0.483739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.615821 seconds.
+  path: Assets/SuperTiled2Unity/Import/16x16/inform.tmx
+  artifactKey: Guid(3dc8a7f99e9b76847a67776165809c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/16x16/inform.tmx using Guid(3dc8a7f99e9b76847a67776165809c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf33c7e134897ede19b245f138353dd') in 0.183171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.028346 seconds.
+  path: Assets/Scenes/test.unity
+  artifactKey: Guid(f1e4a0f2ec685794e87810fba51c3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/test.unity using Guid(f1e4a0f2ec685794e87810fba51c3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7266d88b8125c0fc1dbf4f7992885cf') in 0.014709 seconds 
