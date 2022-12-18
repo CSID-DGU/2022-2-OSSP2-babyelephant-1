@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/title.unity
+    guid: 63c9797078a7b97418c72992d09e69c0
+  - enabled: 1
+    path: Assets/Scenes/startStory.unity
+    guid: 49316e45c6f9e2f459a77ac4eefd5fb6
+  - enabled: 1
+    path: Assets/Scenes/test.unity
+    guid: f1e4a0f2ec685794e87810fba51c3148
+  - enabled: 1
+    path: Assets/Scenes/FailLove.unity
+    guid: e7af3f7fc6dbd874eb58feb2c007e182
+  - enabled: 1
+    path: Assets/Scenes/SuccessLove.unity
+    guid: b4038dedf111a2d479bed39e19c21303
+  - enabled: 1
+    path: Assets/Scenes/event/haklim_rading.unity
+    guid: 878f1f05a1774364b958e127cccfb829
+  - enabled: 1
+    path: Assets/Scenes/event/heyhwa_multi.unity
+    guid: 0e90a0d05bb1a2a4a9da00847b389b5e
+  - enabled: 1
+    path: Assets/Scenes/event/inform_consel.unity
+    guid: 6cb4b135fcf8db84d9d366fac7925233
+  - enabled: 1
+    path: Assets/Scenes/event/lawyer_meditation.unity
+    guid: 8b2e7d16662fc9e4688137b031bc16ec
+  - enabled: 1
+    path: Assets/Scenes/event/libraryevent.unity
+    guid: 4bf49b78e35cbca4e96bc5a4e3dd5afe
+  - enabled: 1
+    path: Assets/Scenes/event/manage_listening.unity
+    guid: cb98a3228af969f4697d4147a1fb4b0f
+  - enabled: 1
+    path: Assets/Scenes/event/wonhong_sleep.unity
+    guid: 5d89911be608eb643a024f743be006db
+  - enabled: 1
+    path: Assets/Scenes/event/munhwa_music.unity
+    guid: b2b0761239d55bb49aba431546a000c5
+  - enabled: 1
+    path: Assets/Scenes/event/studentroom_drawing.unity
+    guid: 63f6c52c016a1a9429ae0893b35ec673
+  - enabled: 1
+    path: Assets/Scenes/event/scienceroom_science.unity
+    guid: d08e817171d488443833376e79399546
+  - enabled: 1
+    path: Assets/Scenes/event/myongjin_date.unity
+    guid: 428e3208bb1cc4e40bcf8677c206d6b4
+  - enabled: 0
+    path: Assets/Scenes/haklim.unity
+    guid: 6ce6682a728db4042a3552d5b9e9491a
+  - enabled: 0
+    path: Assets/Scenes/inform.unity
+    guid: fdd4a3e9b755d3b4687ddf86853fb81f
+  - enabled: 0
+    path: Assets/Scenes/manage.unity
+    guid: 50fd13102acd47942b3573ffa8020534
+  - enabled: 0
+    path: Assets/Scenes/newgong.unity
+    guid: 1b68601f8e0b50a4689ec511e51a3c3b
+  - enabled: 0
+    path: Assets/Scenes/manhae.unity
+    guid: 3a729039064053f46ab44a3c5a45ae21
+  - enabled: 0
+    path: Assets/Scenes/sangrok.unity
+    guid: 7ba964d08ee44574fb130bdf0eca55e1
+  - enabled: 1
+    path: Assets/Scenes/mini/GameScene.unity
+    guid: 6cc6f7f8bc610e142a15d581c4fa06f7
+  - enabled: 1
+    path: Assets/Scenes/mini/Playing.unity
+    guid: ff2c5108f9ec7c64392aac2a838e01a5
+  - enabled: 1
+    path: Assets/Scenes/mini/reactiontime.unity
+    guid: daa502c1e4e9d204f8a38cd25e978de4
+  - enabled: 1
+    path: Assets/Scenes/mini/Record Beat.unity
+    guid: 352cb4a5ed798ed459127bae18d06d93
+  - enabled: 1
+    path: Assets/Scenes/mini/SampleScene.unity
+    guid: 8d449281f87f88343a118e25f8949b5c
+  - enabled: 1
+    path: Assets/Scenes/mini/Songlist.unity
+    guid: 8801097930809aa40b09d70a427093f7
+  - enabled: 1
+    path: Assets/Scenes/mini/Stage.unity
+    guid: 5e6131d556041664fb4f60faab8b9c92
+  - enabled: 1
+    path: Assets/Scenes/mini/Start.unity
+    guid: 6f3dd00a455a7d841808a2ad13f67ca1
+  - enabled: 1
+    path: Assets/Scenes/mini/Title2.unity
+    guid: d87df2b20c0c89f428774485ca2d09ae
+  - enabled: 1
+    path: Assets/Scenes/mini/Title1.unity
+    guid: 2e11bdb4220a5d444b38f06312fafc34
+  - enabled: 1
+    path: Assets/Graphics/Scenes/MainMenu.unity
+    guid: 2d4be812eb89a5e48bfb1ecba389963c
+  - enabled: 1
+    path: Assets/Graphics/Scenes/Infinite.unity
+    guid: 3281db20676b33240b81ef1135a88ef9
+  - enabled: 1
+    path: Assets/Scenes/startStory 1.unity
+    guid: d4dda1930b47e71468cffd57c1eb1b1c
+  - enabled: 1
+    path: Assets/Scenes/startStory 2.unity
+    guid: b5e8308d39a8b884baaf6cbb915e8d8c
+  - enabled: 1
+    path: Assets/Scenes/startStory 3.unity
+    guid: 81cbaeec33c353641ae8ca96999311c1
+  - enabled: 1
+    path: Assets/Scenes/startStory 4.unity
+    guid: 0fb3cc92995361a4698bab814926a502
+  - enabled: 1
+    path: Assets/Scenes/startStory 5.unity
+    guid: 10414f33f1ca01348a05586cb771b62a
+  m_configObjects: {}

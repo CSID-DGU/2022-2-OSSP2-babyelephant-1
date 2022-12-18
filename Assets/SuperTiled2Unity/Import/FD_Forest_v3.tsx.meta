@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 57a98a12945f51849b5250bf4e2f8b78
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
+  missingFiles: []
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 13
+  pixelsPerUnit: 1
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 1979
+  useSpriteAtlas: 1
+  atlasWidth: 2048
+  atlasHeight: 2048
